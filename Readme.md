@@ -27,14 +27,14 @@ Stages of Transhipment models considering all factors one-at-time can be accesse
 
 Demand vs Supply (dotted) as function of time for each commodity
 
-![d-s](DemvsSup.png)
+![d-s](images/DemvsSup.png)
 
 No of served patients (all commodities) for each week
 
-![n-s](served.png)
+![n-s](images/served.png)
 
 Impact of the deprivation cost by comparison of 2 models:
 
-![wo-d](UnServedPatOxy.png)
+![wo-d](images/UnServedPatOxy.png)
 
-![wh-d](UnServedPatHCQ.png)
+![wh-d](images/UnServedPatHCQ.png)
