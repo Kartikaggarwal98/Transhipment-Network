@@ -8,6 +8,10 @@ Demonstration of the model has been shown with Covid-19 data taken from https://
 
 [Python](https://github.com/Kartikaggarwal98/Transhipment-Network/tree/master/mc_v_p_time.py)
 
+[Analysis on Covid-19](##Analysis)
+
+## Stages
+
 Stages of Transhipment models considering all factors one-at-time can be accessed as:
 | URL | Info | 
 |---|---|
@@ -18,3 +22,19 @@ Stages of Transhipment models considering all factors one-at-time can be accesse
 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/Kartikaggarwal98/Transhipment-Network/blob/master/notebooks/mc_v_people.ipynb)  | Multi-commodity + Transport costs + Human Suffering at demand nodes to minimize unserved people  |
 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/Kartikaggarwal98/Transhipment-Network/blob/master/notebooks/mc_v_p_time.ipynb)  | Multi-commodity + Transport costs + Human Suffering at demand nodes to minimize unserved people taking care of deprivation costs |
 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/Kartikaggarwal98/Transhipment-Network/blob/master/notebooks/mc_mv_p_time.ipynb)  | Multi-commodity + Multi-vehicle Transport costs + Human Suffering at demand nodes to minimize unserved people taking care of deprivation costs |
+
+## Analysis
+
+Demand vs Supply (dotted) as function of time for each commodity
+
+![d-s](DemvsSup.png)
+
+No of served patients (all commodities) for each week
+
+![n-s](served.png)
+
+Impact of the deprivation cost by comparison of 2 models:
+
+![wo-d](UnServedPatOxy.png)
+
+![wh-d](UnServedPatHCQ.png)
